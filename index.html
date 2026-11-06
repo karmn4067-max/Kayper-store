@@ -38,7 +38,7 @@
 <body>
 
     <header>
-        <h1>KAYPER</h1>
+        <h1 id="store-title">KAYPER</h1>
         <p>EGYPTIAN LUXURY STREETWEAR</p>
     </header>
 
@@ -48,8 +48,10 @@
     </div>
 
     <div class="container">
-        <div class="section-title">أحدث المنتجات (Drop 04)</div>
-        <div class="products-grid" id="products-container"></div>
+        <div class="section-title">أحدث المنتجات</div>
+        <div class="products-grid" id="products-container">
+            <p style="color: #a0a0a0; text-align: center; grid-column: 1/-1;">جاري تحميل المنتجات...</p>
+        </div>
     </div>
 
     <footer>
@@ -57,70 +59,34 @@
     </footer>
 
     <script>
-        const storeProducts = [
-            {
-                name: "هودي أسيد واش أوفرسايز فائق الجودة",
-                price: 1450,
-                comparePrice: 1790,
-                image: "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80"
-            },
-            {
-                name: "تيشيرت فينتاج ثقيل 320 جرام بطبعة سايبر",
-                price: 780,
-                comparePrice: 950,
-                image: "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80"
-            },
-            {
-                name: "بنطال كارجو تاكتيكال واسع بإكسسوارات معدنية",
-                price: 1350,
-                comparePrice: 1650,
-                image: "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80"
-            },
-            {
-                name: "جاكيت بومبر وجهين بشعار كايبر الفاخر",
-                price: 2350,
-                comparePrice: 2850,
-                image: "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=1000&q=80"
-            },
-            {
-                name: "طقم كايبر الرياضي الكامل (هودي وبنطال)",
-                price: 2450,
-                comparePrice: 2950,
-                image: "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80"
-            },
-            {
-                name: "حقيبة كروس تكتيكية مضادة للماء بسحابات YKK",
-                price: 650,
-                comparePrice: 800,
-                image: "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=80"
-            },
-            {
-                name: "كاب كايبر المطرز قطن مغسول عتيق",
-                price: 450,
-                comparePrice: 550,
-                image: "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=1000&q=80"
-            },
-            {
-                name: "بنطال ستريت وير بيج بكسرات مريحة واسعة",
-                price: 1250,
-                comparePrice: 1500,
-                image: "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1000&q=80"
-            }
-        ];
-
-        const container = document.getElementById('products-container');
-        storeProducts.forEach(prod => {
-            container.innerHTML += `
-                <div class="product-card">
-                    <img src="${prod.image}" alt="${prod.name}">
-                    <div class="product-info">
-                        <div class="product-title">${prod.name}</div>
-                        <div class="product-price"><span>${prod.comparePrice} ج.م</span> ${prod.price} ج.م</div>
-                        <a href="https://wa.me/201001234567?text=أريد طلب: ${encodeURIComponent(prod.name)}" target="_blank" class="btn">اطلب عبر الواتساب</a>
-                    </div>
-                </div>
-            `;
-        });
+        // سحب البيانات تلقائياً من ملف store_data.json الخاص بك
+        fetch('store_data.json')
+            .then(response => response.json())
+            .then(data => {
+                if (data.store) {
+                    document.getElementById('store-title').innerText = data.store;
+                }
+                const container = document.getElementById('products-container');
+                if (data.products && data.products.length > 0) {
+                    container.innerHTML = '';
+                    data.products.forEach(prod => {
+                        let imgUrl = (prod.images && prod.images.length > 0) ? prod.images[0] : 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6';
+                        container.innerHTML += `
+                            <div class="product-card">
+                                <img src="${imgUrl}" alt="${prod.nameAr}">
+                                <div class="product-info">
+                                    <div class="product-title">${prod.nameAr}</div>
+                                    <div class="product-price"><span>${prod.comparePrice} ج.م</span> ${prod.price} ج.م</div>
+                                    <a href="https://wa.me/201001234567?text=${encodeURIComponent('أريد طلب: ' + prod.nameAr + ' بسعر ' + prod.price + ' ج.م')}" target="_blank" class="btn">اطلب عبر الواتساب</a>
+                                </div>
+                            </div>
+                        `;
+                    });
+                }
+            })
+            .catch(error => {
+                console.error('Error loading store data:', error);
+            });
     </script>
 </body>
 </html>
