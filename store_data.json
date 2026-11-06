@@ -1,0 +1,600 @@
+{
+  "exportedAt": "2026-11-06T15:53:44.195Z",
+  "store": "KAYPER Streetwear Egypt",
+  "version": "1.0.0",
+  "products": [
+    {
+      "id": "kp-prod-1",
+      "sku": "KP-HD-001",
+      "nameEn": "Heavyduty Acid Wash Boxy Hoodie",
+      "nameAr": "هودي أسيد واش أوفرسايز فائق الجودة",
+      "descriptionEn": "Engineered from 480 GSM organic Egyptian fleece with a vintage mineral wash finish. Features drop-shoulder proportions, raw ribbed cuffs, double-layered hood without drawstrings, and discreet high-density KAYPER chest embroidery.",
+      "descriptionAr": "مصنوع من قطن مصري عضوي ثقيل 480 جرام بمعالجة أسيد واش كلاسيكية. قصة بوكسي بأكتاف متهدلة، بطانة هودي مزدوجة فاخرة وتطريز كايبر عالي الكثافة على الصدر.",
+      "price": 1450,
+      "compareAtPrice": 1790,
+      "category": "hoodies",
+      "images": [
+        "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1509967419530-da38b4704bc6?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        {
+          "nameEn": "Washed Charcoal",
+          "nameAr": "فحمي مغسول",
+          "hex": "#222222"
+        },
+        {
+          "nameEn": "Desert Sand",
+          "nameAr": "رملي صحراوي",
+          "hex": "#D4C3A3"
+        },
+        {
+          "nameEn": "Pitch Black",
+          "nameAr": "أسود داكن",
+          "hex": "#0B0B0B"
+        }
+      ],
+      "inventory": {
+        "M-Washed Charcoal": 12,
+        "L-Washed Charcoal": 18,
+        "XL-Washed Charcoal": 9,
+        "XXL-Washed Charcoal": 8,
+        "M-Desert Sand": 10,
+        "L-Desert Sand": 14,
+        "XL-Desert Sand": 6,
+        "M-Pitch Black": 20,
+        "L-Pitch Black": 22,
+        "XL-Pitch Black": 15,
+        "XXL-Pitch Black": 7
+      },
+      "totalStock": 141,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNewArrival": false,
+      "isPublished": true,
+      "rating": 4.9,
+      "reviewCount": 38,
+      "tags": [
+        "oversized",
+        "fleece",
+        "acid-wash",
+        "winter-drop"
+      ],
+      "createdAt": "2026-09-10T12:00:00Z"
+    },
+    {
+      "id": "kp-prod-2",
+      "sku": "KP-TS-002",
+      "nameEn": "Cyber Matrix 320 GSM Vintage Heavy Tee",
+      "nameAr": "تيشيرت فينتاج ثقيل 320 جرام بطبعة سايبر",
+      "descriptionEn": "The quintessential heavyweight boxy tee. Cut from combed 320 GSM single-jersey Egyptian cotton. Features reinforced 1.25\" collar ribbing, distressed back cyber-typographic print, and seamless side silhouette.",
+      "descriptionAr": "التيشيرت الثقيل المثالي لملابس الشارع. قطن مصري ممشط عالي السماكة 320 جرام. ياقة محكمة عريضة، طباعة شاشة حريرية عتيقة على الظهر ومظهر عصري جذاب.",
+      "price": 780,
+      "compareAtPrice": 950,
+      "category": "tees",
+      "images": [
+        "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1583743814966-8936f5b7be1a?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1618354691373-d851c5c3a990?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "S",
+        "M",
+        "L",
+        "XL",
+        "Oversized"
+      ],
+      "colors": [
+        {
+          "nameEn": "Off-White Chalk",
+          "nameAr": "أبيض عاجي",
+          "hex": "#EDE8DF"
+        },
+        {
+          "nameEn": "Washed Black",
+          "nameAr": "أسود معتق",
+          "hex": "#1C1C1C"
+        },
+        {
+          "nameEn": "Raw Olive",
+          "nameAr": "زيتي خام",
+          "hex": "#3E4237"
+        }
+      ],
+      "inventory": {
+        "S-Off-White Chalk": 8,
+        "M-Off-White Chalk": 16,
+        "L-Off-White Chalk": 25,
+        "XL-Off-White Chalk": 12,
+        "Oversized-Off-White Chalk": 15,
+        "S-Washed Black": 10,
+        "M-Washed Black": 24,
+        "L-Washed Black": 30,
+        "XL-Washed Black": 18,
+        "Oversized-Washed Black": 20
+      },
+      "totalStock": 178,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNewArrival": true,
+      "isPublished": true,
+      "rating": 4.8,
+      "reviewCount": 52,
+      "tags": [
+        "heavy-tee",
+        "oversized",
+        "graphic",
+        "summer-heat"
+      ],
+      "createdAt": "2026-10-01T10:00:00Z"
+    },
+    {
+      "id": "kp-prod-3",
+      "sku": "KP-PT-003",
+      "nameEn": "Tactical Wide-Leg Cargo Pants with Metal Hardware",
+      "nameAr": "بنطال كارجو تاكتيكال واسع بإكسسوارات معدنية",
+      "descriptionEn": "Military-grade cotton ripstop pants engineered with an exaggerated wide drape. Features 6 deep multi-dimensional cargo pockets, gunmetal D-rings, adjustable cinch cuffs at the ankles, and elasticated back waistband.",
+      "descriptionAr": "مصنوع من قماش قطن ريبستوب فائق المتانة ومقاوم للتمزق. قصة ساق واسعة ومريحة، 6 جيوب كارجو عميقة ثلاثية الأبعاد، حلقات معدنية تاكتيكال وأربطة تضييق قابلة للتعديل عند الكاحل.",
+      "price": 1350,
+      "compareAtPrice": 1650,
+      "category": "pants",
+      "images": [
+        "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1517445312882-bc9910d016b7?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36",
+        "38"
+      ],
+      "colors": [
+        {
+          "nameEn": "Stealth Black",
+          "nameAr": "أسود تكتيكي",
+          "hex": "#111111"
+        },
+        {
+          "nameEn": "Cairo Clay",
+          "nameAr": "طمي قاهري بيج",
+          "hex": "#C2B49D"
+        }
+      ],
+      "inventory": {
+        "30-Stealth Black": 5,
+        "32-Stealth Black": 12,
+        "34-Stealth Black": 14,
+        "36-Stealth Black": 8,
+        "38-Stealth Black": 3,
+        "32-Cairo Clay": 9,
+        "34-Cairo Clay": 11,
+        "36-Cairo Clay": 7
+      },
+      "totalStock": 69,
+      "isFeatured": true,
+      "isBestSeller": false,
+      "isNewArrival": true,
+      "isPublished": true,
+      "rating": 4.9,
+      "reviewCount": 24,
+      "tags": [
+        "cargo",
+        "tactical",
+        "streetwear",
+        "wide-leg"
+      ],
+      "createdAt": "2026-10-15T15:00:00Z"
+    },
+    {
+      "id": "kp-prod-4",
+      "sku": "KP-JK-004",
+      "nameEn": "Reversible Monogram Bomber Jacket",
+      "nameAr": "جاكيت بومبر وجهين بشعار كايبر الفاخر",
+      "descriptionEn": "Dual-identity outerwear: Side A features heavy matte water-repellent nylon in obsidian black with tonal sleeve embroidery; Side B flips to quilted desert beige satin with archivist streetwear graphics.",
+      "descriptionAr": "تصميم مزدوج فريد بوجهين: الوجه الأول نايلون مطفي مضاد للماء باللون الأسود الملكي وتطريز كايبر، والوجه الثاني ساتان بيج مبطن بتطريزات ستريت وير أرشيفية.",
+      "price": 2350,
+      "compareAtPrice": 2850,
+      "category": "jackets",
+      "images": [
+        "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL"
+      ],
+      "colors": [
+        {
+          "nameEn": "Obsidian / Sand",
+          "nameAr": "أسود / رملي",
+          "hex": "#181818"
+        }
+      ],
+      "inventory": {
+        "M-Obsidian / Sand": 6,
+        "L-Obsidian / Sand": 10,
+        "XL-Obsidian / Sand": 5
+      },
+      "totalStock": 21,
+      "isFeatured": true,
+      "isBestSeller": true,
+      "isNewArrival": false,
+      "isPublished": true,
+      "rating": 5,
+      "reviewCount": 19,
+      "tags": [
+        "jacket",
+        "bomber",
+        "reversible",
+        "luxury"
+      ],
+      "createdAt": "2026-09-01T08:00:00Z"
+    },
+    {
+      "id": "kp-prod-5",
+      "sku": "KP-ST-005",
+      "nameEn": "Archival Heavy Tracksuit Set (Hoodie + Bottoms)",
+      "nameAr": "طقم كايبر الرياضي الكامل (هودي وبنطال)",
+      "descriptionEn": "The full streetwear uniform. Includes our heavyweight dropped-shoulder zip hoodie and matching wide flare sweatpants with raw hems and brushed interior thermal lining.",
+      "descriptionAr": "الزي الموحد لعشاق الستريت وير. طقم متكامل يتكون من هودي ثقيل بسحاب وبنطال مطابق بأطراف واسعة ونسيج ناعم من الداخل للدفء والراحة المطلقة.",
+      "price": 2450,
+      "compareAtPrice": 2950,
+      "category": "sets",
+      "images": [
+        "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "M",
+        "L",
+        "XL",
+        "XXL"
+      ],
+      "colors": [
+        {
+          "nameEn": "Earth Taupe",
+          "nameAr": "بيج ترابي",
+          "hex": "#B8A892"
+        },
+        {
+          "nameEn": "Pure Black",
+          "nameAr": "أسود نقي",
+          "hex": "#000000"
+        }
+      ],
+      "inventory": {
+        "M-Earth Taupe": 4,
+        "L-Earth Taupe": 8,
+        "XL-Earth Taupe": 5,
+        "M-Pure Black": 10,
+        "L-Pure Black": 12,
+        "XL-Pure Black": 8,
+        "XXL-Pure Black": 3
+      },
+      "totalStock": 50,
+      "isFeatured": true,
+      "isBestSeller": false,
+      "isNewArrival": true,
+      "isPublished": true,
+      "rating": 4.9,
+      "reviewCount": 15,
+      "tags": [
+        "matching-set",
+        "co-ord",
+        "streetwear-set"
+      ],
+      "createdAt": "2026-10-20T11:00:00Z"
+    },
+    {
+      "id": "kp-prod-6",
+      "sku": "KP-AC-006",
+      "nameEn": "Tactical Crossbody Sling Bag with YKK Zips",
+      "nameAr": "حقيبة كروس تكتيكية مضادة للماء بسحابات YKK",
+      "descriptionEn": "Constructed from ballistic Cordura nylon with matte coated zippers. Equipped with FIDLOCK magnetic quick-release buckle, hidden back pocket for passport and phone, and modular webbing straps.",
+      "descriptionAr": "مصممة من نايلون كوردورا المضاد للمياه مع سحابات عازلة. إبزيم معدني مغناطيسي سريع الفتح، جيب خلفي سري للهاتف والبطاقات وأحزمة مريحة قابلة للتعديل.",
+      "price": 650,
+      "compareAtPrice": 800,
+      "category": "accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "nameEn": "Matte Stealth Black",
+          "nameAr": "أسود مطفي",
+          "hex": "#1A1A1A"
+        },
+        {
+          "nameEn": "Military Sand",
+          "nameAr": "رملي عسكري",
+          "hex": "#C7BBA5"
+        }
+      ],
+      "inventory": {
+        "One Size-Matte Stealth Black": 25,
+        "One Size-Military Sand": 18
+      },
+      "totalStock": 43,
+      "isFeatured": false,
+      "isBestSeller": true,
+      "isNewArrival": false,
+      "isPublished": true,
+      "rating": 4.7,
+      "reviewCount": 31,
+      "tags": [
+        "sling",
+        "tactical",
+        "bag",
+        "accessories"
+      ],
+      "createdAt": "2026-08-25T14:00:00Z"
+    },
+    {
+      "id": "kp-prod-7",
+      "sku": "KP-AC-007",
+      "nameEn": "KAYPER Distressed Washed Heavy Cap",
+      "nameAr": "كاب كايبر المطرز قطن مغسول عتيق",
+      "descriptionEn": "Unstructured 6-panel dad cap made from 100% heavy washed cotton twill. Features hand-distressed peak edges, 3D raised KAYPER tonal embroidery, and brass buckle strapback.",
+      "descriptionAr": "كاب قطن كلاسيكي مريح مصنوع من تويل قطني ثقيل مغسول. حواف عتيقة مميزة، تطريز كايبر ثلاثي الأبعاد وإبزيم نحاسي خلفي قابل للتعديل.",
+      "price": 450,
+      "compareAtPrice": 550,
+      "category": "accessories",
+      "images": [
+        "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1575428652377-a2d80e2277fc?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "One Size"
+      ],
+      "colors": [
+        {
+          "nameEn": "Washed Charcoal",
+          "nameAr": "فحمي مغسول",
+          "hex": "#2B2B2B"
+        },
+        {
+          "nameEn": "Vintage Beige",
+          "nameAr": "بيج كلاسيك",
+          "hex": "#D7CBBA"
+        }
+      ],
+      "inventory": {
+        "One Size-Washed Charcoal": 30,
+        "One Size-Vintage Beige": 22
+      },
+      "totalStock": 52,
+      "isFeatured": false,
+      "isBestSeller": true,
+      "isNewArrival": true,
+      "isPublished": true,
+      "rating": 4.8,
+      "reviewCount": 41,
+      "tags": [
+        "cap",
+        "hat",
+        "streetwear",
+        "distressed"
+      ],
+      "createdAt": "2026-09-15T09:00:00Z"
+    },
+    {
+      "id": "kp-prod-8",
+      "sku": "KP-PT-008",
+      "nameEn": "Desert Relaxed Pleated Street Trousers",
+      "nameAr": "بنطال ستريت وير بيج بكسرات مريحة واسعة",
+      "descriptionEn": "The intersection of luxury tailoring and urban culture. Cut with deep double front pleats from structured cotton-wool gabardine. Relaxed straight leg that falls cleanly over high-top sneakers.",
+      "descriptionAr": "مزيج فاخر بين الخياطة الراقية وثقافة ملابس الشارع المعاصرة. مصمم بكسرات أمامية مزدوجة وقصة مستقيمة مريحة تنسدل بأناقة فوق الأحذية الرياضية.",
+      "price": 1250,
+      "compareAtPrice": 1500,
+      "category": "pants",
+      "images": [
+        "https://images.unsplash.com/photo-1479064555552-3ef4979f8908?auto=format&fit=crop&w=1000&q=80",
+        "https://images.unsplash.com/photo-1506629082955-511b1aa562c8?auto=format&fit=crop&w=1000&q=80"
+      ],
+      "sizes": [
+        "30",
+        "32",
+        "34",
+        "36"
+      ],
+      "colors": [
+        {
+          "nameEn": "Sand Stone",
+          "nameAr": "حجر رملي",
+          "hex": "#CEC2AD"
+        },
+        {
+          "nameEn": "Deep Espresso",
+          "nameAr": "إسبريسو غامق",
+          "hex": "#2A201A"
+        }
+      ],
+      "inventory": {
+        "30-Sand Stone": 6,
+        "32-Sand Stone": 11,
+        "34-Sand Stone": 9,
+        "36-Sand Stone": 4,
+        "32-Deep Espresso": 8,
+        "34-Deep Espresso": 7
+      },
+      "totalStock": 45,
+      "isFeatured": false,
+      "isBestSeller": false,
+      "isNewArrival": true,
+      "isPublished": true,
+      "rating": 4.8,
+      "reviewCount": 16,
+      "tags": [
+        "trousers",
+        "pleated",
+        "tailored-streetwear"
+      ],
+      "createdAt": "2026-10-25T14:30:00Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "KP-89412",
+      "customerName": "Youssef El-Shennawy (يوسف الشناوي)",
+      "customerPhone": "01012345678",
+      "customerEmail": "youssef.shennawy@gmail.com",
+      "governorate": "Cairo",
+      "governorateAr": "القاهرة",
+      "city": "New Cairo (التجمع الخامس)",
+      "address": "Building 42, South Academy, Street 18",
+      "landmark": "Behind Point 90 Mall",
+      "notes": "Please call 1 hour before arrival / يرجى الاتصال قبل الوصول بساعة",
+      "items": [
+        {
+          "productId": "kp-prod-1",
+          "nameEn": "Heavyduty Acid Wash Boxy Hoodie",
+          "nameAr": "هودي أسيد واش أوفرسايز فائق الجودة",
+          "image": "https://images.unsplash.com/photo-1556905055-8f358a7a47b2?auto=format&fit=crop&w=300&q=80",
+          "size": "L",
+          "colorName": "Washed Charcoal",
+          "price": 1450,
+          "quantity": 1
+        },
+        {
+          "productId": "kp-prod-2",
+          "nameEn": "Cyber Matrix 320 GSM Vintage Heavy Tee",
+          "nameAr": "تيشيرت فينتاج ثقيل 320 جرام بطبعة سايبر",
+          "image": "https://images.unsplash.com/photo-1521572267360-ee0c2909d518?auto=format&fit=crop&w=300&q=80",
+          "size": "L",
+          "colorName": "Off-White Chalk",
+          "price": 780,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2230,
+      "shippingFee": 50,
+      "discountAmount": 223,
+      "discountCode": "KAYPER10",
+      "total": 2057,
+      "paymentMethod": "cod",
+      "paymentStatus": "unpaid",
+      "status": "shipped",
+      "createdAt": "2026-11-05T14:32:00Z",
+      "updatedAt": "2026-11-06T09:15:00Z",
+      "timeline": [
+        {
+          "status": "pending",
+          "timestamp": "2026-11-05T14:32:00Z",
+          "noteEn": "Order received via online checkout",
+          "noteAr": "تم استلام الطلب عبر المتجر الإلكتروني"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-11-05T15:10:00Z",
+          "noteEn": "Order confirmed with customer via WhatsApp",
+          "noteAr": "تم تأكيد تفاصيل الطلب مع العميل عبر الواتساب"
+        },
+        {
+          "status": "processing",
+          "timestamp": "2026-11-05T17:40:00Z",
+          "noteEn": "Order packed in KAYPER custom dustbag & luxury box",
+          "noteAr": "تم تجهيز الطلب وتغليفه في صندوق كايبر الفاخر"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2026-11-06T09:15:00Z",
+          "noteEn": "Handed over to Bosta Courier (Tracking: BST-EG-9982)",
+          "noteAr": "تم التسليم لشركة الشحن بوسطة برقم تتبع BST-EG-9982"
+        }
+      ]
+    },
+    {
+      "id": "KP-89411",
+      "customerName": "Karim Mansour (كريم منصور)",
+      "customerPhone": "01198765432",
+      "customerEmail": "karim.mansour@outlook.com",
+      "governorate": "Alexandria",
+      "governorateAr": "الإسكندرية",
+      "city": "Smouha (سموحة)",
+      "address": "Flat 8, Victor Emmanuel Square",
+      "landmark": "Next to Green Plaza",
+      "items": [
+        {
+          "productId": "kp-prod-3",
+          "nameEn": "Tactical Wide-Leg Cargo Pants with Metal Hardware",
+          "nameAr": "بنطال كارجو تاكتيكال واسع بإكسسوارات معدنية",
+          "image": "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=300&q=80",
+          "size": "34",
+          "colorName": "Stealth Black",
+          "price": 1350,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 1350,
+      "shippingFee": 65,
+      "discountAmount": 0,
+      "total": 1415,
+      "paymentMethod": "instapay",
+      "paymentStatus": "paid",
+      "status": "delivered",
+      "createdAt": "2026-11-04T10:15:00Z",
+      "updatedAt": "2026-11-05T18:00:00Z",
+      "timeline": [
+        {
+          "status": "pending",
+          "timestamp": "2026-11-04T10:15:00Z",
+          "noteEn": "Order placed, InstaPay ref #IP-99281",
+          "noteAr": "تم إنشاء الطلب، مرجع إنستاباي IP-99281"
+        },
+        {
+          "status": "confirmed",
+          "timestamp": "2026-11-04T10:30:00Z",
+          "noteEn": "Payment verified successfully",
+          "noteAr": "تم التحقق من الدفع بنجاح"
+        },
+        {
+          "status": "shipped",
+          "timestamp": "2026-11-04T14:00:00Z",
+          "noteEn": "Shipped to Alexandria",
+          "noteAr": "تم الشحن إلى الإسكندرية"
+        },
+        {
+          "status": "delivered",
+          "timestamp": "2026-11-05T18:00:00Z",
+          "noteEn": "Delivered to recipient",
+          "noteAr": "تم التسليم بنجاح للعميل"
+        }
+      ]
+    },
+    {
+      "id": "KP-89410",
+      "customerName": "Omar Abdel-Rahman (عمر عبد الرحمن)",
+      "customerPhone": "01233445566",
+      "customerEmail": "omar.abdelrahman@hotmail.com",
+      "governorate": "Giza",
+      "governorateAr": "الجيزة",
+      "city": "Sheikh Zayed (الشيخ زايد)",
+      "address": "Beverly Hills Compound, Villa 112",
+      "items": [
+        {
+          "productId": "kp-prod-4",
+          "nameEn": "Reversible Monogram Bomber Jacket",
+          "nameAr": "جاكيت بومبر وجهين بشعار كايبر الفاخر",
+          "image": "https://images.unsplash.com/photo-1544022613-e87ca75a784a?auto=format&fit=crop&w=300&q=80",
+          "size": "L",
+          "colorName": "Obsidian / Sand",
+          "price": 2350,
+          "quantity": 1
+        }
+      ],
+      "subtotal": 2350,
+      "shippingFee": 50,
+      "discountAmount": 15
